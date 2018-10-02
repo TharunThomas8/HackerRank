@@ -6,16 +6,16 @@
 #define ld long double
 #define pb  push_back
 #define mp  make_pair
-#define ff  first
 #define ss  second
 using namespace std ;
 
 int main()
 {
-    ll t,i,n,k,b,c;
+    ll t;
     cin>>t;
     while(t--)
     {
+        ll i,n,k,b,c;
         c=0;
         cin>>n>>k;
         for ( i = 0 ; i < n ; i++ )
