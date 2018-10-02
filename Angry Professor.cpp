@@ -12,13 +12,13 @@ using namespace std ;
 
 int main()
 {
-    ll t;
+    ll t,i,n,k,b,c;
     cin>>t;
     while(t--)
     {
-        ll n,k,c=0,b;
+        c=0;
         cin>>n>>k;
-        for ( ll i = 0 ; i < n ; i++ )
+        for ( i = 0 ; i < n ; i++ )
         {
             cin>>b;
             if(b<=0)
